@@ -30,11 +30,9 @@ This repository does not imply sponsorship, endorsement, or affiliation with Goo
 
 ## Rights and Use
 
-This project is **source-visible and all rights reserved**. It is not licensed under MIT.
+The root [LICENSE](LICENSE) releases covered material under MIT, copyright Bart Salazar. Preserve its copyright and permission notice. Earlier grants, third-party licenses, and legal exceptions remain in effect. Conflicting generic repository-standard notices do not narrow those permissions.
 
-Public access permits viewing and evaluation only. It does not authorize copying, redistribution, adaptation, commercialization, dataset ingestion, AI training, or derivative works.
-
-See [`repository-standard/LICENSE`](repository-standard/LICENSE), [`COPYRIGHT.md`](repository-standard/COPYRIGHT.md), [`AI_POLICY.md`](repository-standard/AI_POLICY.md), and [`ATTRIBUTION.md`](repository-standard/ATTRIBUTION.md).
+See [Rights and Attribution](RIGHTS_AND_ATTRIBUTION.md) for scope, collaborator credit, and preferred attribution for adaptations. The preferred public citation is a request beyond MIT’s required notices, not an extra MIT restriction.
 
 ---
 
