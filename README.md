@@ -38,3 +38,8 @@ See [Rights and Attribution](RIGHTS_AND_ATTRIBUTION.md) for scope, collaborator 
 
 **Created by Bart Salazar / Simple Minds Studios**  
 Hart, Michigan — 2026
+
+
+## Public presentation
+
+https://simple-minds-studios.github.io/spineflow-tiny-showcase/

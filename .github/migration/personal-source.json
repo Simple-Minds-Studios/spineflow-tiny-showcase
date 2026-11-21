@@ -1,0 +1,40 @@
+{
+  "source_repository": "Bartron773/spineflow-tiny-showcase",
+  "source_default_sha": "322b29f0f8124330d4a4d74d5de9d7e93b7ac452",
+  "organization_sha_before_audit": "56afd72dec5e537ab20381683f4f0738655e6ecc",
+  "common_ancestor": "d456b8f669fc81f936ee99c565051aad70f8a7f3",
+  "source_description": "An enhanced architectural showcase for SpineFlow Tiny, featuring detailed material specifications, expanded narratives, and interactive elements for each node. https://gemini.google.com/share/e54678fd65ad",
+  "source_homepage": "https://spineflow-nwh7ttdb.manus.space",
+  "preserved_branches": [
+    "archive/personal/main"
+  ],
+  "source_branch_map": [
+    {
+      "source_branch": "main",
+      "sha": "322b29f0f8124330d4a4d74d5de9d7e93b7ac452",
+      "preserved_in": "archive/personal/main"
+    }
+  ],
+  "source_tags": [],
+  "issues_and_pull_requests": [
+    {
+      "number": 1,
+      "title": "Fix L2 findings: accessible, safe, static-first SpineFlow gallery",
+      "body": "## What this fixes from Lincoln 2's independent review\n\nThis PR adds a **static-first, offline, accessible-by-design SpineFlow gallery** at the repository root, without overwriting the original `client/public/spineflow-v5.6.html` experiment or renaming SpineFlow.\n\n### Changes\n- Clear public-facing explanation and five preserved study themes (Heritage Study, Material Alchemist, Sax Sanctuary, Cyber Cell, Drive Home).\n- Responsive HTML/CSS with natural scrolling, keyboard-operable study navigation, tab semantics, focus styles, native dialog, and reduced-motion support.\n- No CDN, analytics, browser API keys, remote AI requests, chat transmission, untrusted `innerHTML`, or broken image-loading state in the new entrypoint.\n- Per-study provenance/status labels, material assumptions, research questions and next steps. J.O.E. explicitly fictional; heritage content explicitly interpretive, not community-endorsed or verified.\n- CSS abstract scene keeps the experimental visual language and works offline. It is not advertised as a 3D/engineering tool.\n- Local allowlisted JSON summary export.\n- Supported `node tools/build.cjs` and `node --test tests/gallery.test.cjs` with GitHub Actions validation.\n- `REMEDIATION.md` records remaining gates and a manual test plan.\n\n### Not changed / remaining blockers\n- **License conflict:** root `LICENSE` says MIT, README says all rights reserved. Bart must decide; no silent relicense.\n- Existing Vite/CRA files and pnpm lock remain for archival purposes but are **not** the new build entrypoint. Full cleanup can follow explicit approval.\n- No actual screen-reader/device test, penetration test, live provider service, 3D terrain implementation or website deployment is claimed.\n- The original experiment remains in its original location; new root entrypoint does not call its unsafe chat code.\n\n### Independent review\nSee [Lincoln 2's source critique](https://github.com/Bartron773/2lincolns/blob/main/reviews/spineflow-tiny/2026-11-12-lincoln2/CRITIQUE.md).\n\n### Review request\nBart and Brad: test the root `index.html` on desktop and mobile, review the five themes, and decide the license conflict before merging or publishing. Keep the branch draft until tests and human review are complete.",
+      "state": "closed",
+      "html_url": "https://github.com/Bartron773/spineflow-tiny-showcase/pull/1",
+      "created_at": "2026-11-12T06:23:56Z",
+      "updated_at": "2026-11-12T06:25:10Z",
+      "closed_at": "2026-11-12T06:25:07Z",
+      "pull_request": {
+        "url": "https://api.github.com/repos/Bartron773/spineflow-tiny-showcase/pulls/1",
+        "html_url": "https://github.com/Bartron773/spineflow-tiny-showcase/pull/1",
+        "diff_url": "https://github.com/Bartron773/spineflow-tiny-showcase/pull/1.diff",
+        "patch_url": "https://github.com/Bartron773/spineflow-tiny-showcase/pull/1.patch",
+        "merged_at": "2026-11-12T06:25:07Z"
+      }
+    }
+  ],
+  "releases": [],
+  "note": "Git history and branch tips are preserved under archive/personal/*. GitHub issue/PR numbers, review threads, check runs, permissions and secrets are not Git objects. Source records remain at their original URLs. No credential values have been copied."
+}

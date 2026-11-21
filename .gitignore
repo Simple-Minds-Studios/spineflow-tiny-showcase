@@ -112,3 +112,18 @@ temp/
 # Manus version file (auto-generated, not part of source)
 client/public/__manus__/version.json
 .project-config.json
+
+# Local files, credentials and generated caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+_site/
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+id_rsa
+id_ed25519
+.aws/

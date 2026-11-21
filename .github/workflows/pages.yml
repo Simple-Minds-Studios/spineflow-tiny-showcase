@@ -22,15 +22,17 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
-      - name: Prepare the standalone SpineFlow exhibit
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate and build the static gallery
         run: |
-          mkdir -p _site
-          cp client/public/spineflow-v5.6.html _site/index.html
-          test -s _site/index.html
+          node --test tests/gallery.test.cjs
+          node tools/build.cjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: _site
+          path: dist
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
