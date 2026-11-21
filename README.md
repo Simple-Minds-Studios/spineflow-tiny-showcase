@@ -15,12 +15,11 @@ SpineFlow Tiny explores a “Blue-Glass Cathedral” aesthetic: a Mid-Century Mo
 
 ## Technical Profile
 
-- React and Vite
-- Tailwind CSS
-- Framer Motion
-- Lucide icons
-- Third-party generative-AI APIs
-- GitHub Pages-compatible deployment
+- Static HTML, CSS and browser JavaScript
+- Node built-in test runner and static build
+- No third-party npm dependencies in the active gallery
+- GitHub Pages deployment
+- Original experimental source and configuration preserved in history
 
 ## Status
 
@@ -43,3 +42,8 @@ Hart, Michigan — 2026
 ## Public presentation
 
 https://simple-minds-studios.github.io/spineflow-tiny-showcase/
+
+
+## Current build and dependency audit
+
+The active static gallery uses no third-party npm packages. Unused legacy dependency declarations and their lockfile were removed from the active build; original files remain in Git history. See [legacy build provenance](docs/LEGACY_BUILD.md). Run `npm test` and `npm run build` with Node 22 or newer.

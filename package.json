@@ -3,36 +3,12 @@
   "version": "6.7.0",
   "private": true,
   "homepage": "https://simple-minds-studios.github.io/spineflow-tiny-showcase/",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "lucide-react": "^0.263.1",
-    "clsx": "^2.0.0",
-    "tailwind-merge": "^1.14.0"
-  },
+  "description": "SpineFlow Tiny \u2014 static-first architectural concept gallery by Simple Minds Studios",
   "scripts": {
     "test": "node --test tests/gallery.test.cjs",
     "build": "node tools/build.cjs"
   },
-  "devDependencies": {
-    "gh-pages": "^6.0.0",
-    "tailwindcss": "^3.3.3",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.27"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "description": "SpineFlow Tiny \u2014 static-first architectural concept gallery by Simple Minds Studios",
-  "spineflow_legacy_note": "Existing dependencies, pnpm lock and Vite/CRA configs are archival; static-first build needs only Node 18+ and no npm install."
+  "engines": {
+    "node": ">=22"
+  }
 }

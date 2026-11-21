@@ -10,7 +10,7 @@ node --test tests/gallery.test.cjs
 node tools/build.cjs
 ```
 
-`dist/` is a self-contained deployable static bundle. On GitHub Pages use the root `index.html` or deploy `dist/` through an approved workflow. The existing `vite.config.ts`, `client/index.html`, and `pnpm-lock.yaml` are **legacy/experimental** and not used by this edition. Do not assume their prior build pipeline works.
+`dist/` is a self-contained deployable static bundle. On GitHub Pages use the root `index.html` or deploy `dist/` through an approved workflow. The existing `vite.config.ts` and `client/index.html` are **legacy/experimental** and not used by this edition. The unused `pnpm-lock.yaml` and root dependency declarations were removed from the active build; their original versions remain in Git history. Do not assume their prior build pipeline works.
 
 ## What changed
 - A plain-language title and visitor task, five selectable studies, responsive scrolling, visible focus, accessible tabs and dialog, reduced motion and keyboard navigation.
